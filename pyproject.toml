@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pas2-python-unit-converter"
+version = "0.1.0"
+description = "Convert a small explicit set of length, mass and temperature units."
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "1Pas2"}]
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
